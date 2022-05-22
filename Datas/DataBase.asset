@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26467cbcd7b494926a5626658c9c0865, type: 3}
+  m_Name: DataBase
+  m_EditorClassIdentifier: 
+  isTutorialPassed: 0
+  player:
+    speed: 10
+    prisonerStackCount: 5
+    prisonerStackCountMax: 10
+    objectStackCount: 5
+    objectStackCountMax: 10
+    upgradeStackCosts: 000000003200000064000000c80000005e010000f4010000b0040000d0070000b80b000094110000
+  guardData:
+    guardCountCurrent: 0
+    guardCountMax: 5
+    guarBuyCosts: e8030000c409000088130000e02e0000204e0000
+    objectStackCountCurrent: 1
+    objectStackCountMax: 5
+    capacityPrisonerCurrent: 1
+    capacityPrisonerMax: 5
+    speed: 5
+    anim:
+      walking: Run
+      idle: Idle
+  prisonerData:
+    defaultSpeed: 5
+    punishmentTimeDefault: 5
+    punishmentTimeMax: 10
+    addPunishmentChance: 70
+    animParam:
+      Walk: Walk
+      Idle: Idle
+      Sit: Sit
+      Yard: IsInYard
+      Cell: IsInCell
+      Blend: Blend
+  resourceLoundry:
+    creationTime: 2
+    maxStackCount: 5
+  resourceFood:
+    creationTime: 2
+    maxStackCount: 5
+  cafeteriaData:
+    isCafeteriaActive: 0
+    cafeteriaCost: 2000
+    defaultCafeteriaCost: 2000
+    upgradeCost: 88130000
+    defaultUpgradeCost: 88130000
+    infoList: 00000000
+  yardData:
+    isYardActive: 0
+    yardCost: 1000
+    defaultYardCost: 1000
+    upgradeCost: c4090000a00f0000
+    defaultUpgradeCost: c4090000a00f0000
+    infoList: 0000000000000000
+  cellData:
+    cellInfos: 
+    cellCosts: 
+    cellCostDefault: 
+    animParam:
+      doorOpen: doorOpen
+      doorClose: doorClose
+  area3:
+    isActive: 0
+    cost: 3000
+    defaultCost: 3000
+    infos: 
+    upgradeCosts: 
+    defaultUpgradesCosts: 
+  tags:
+    cell: Cell
+    player: Player
+    guard: Guard
+    prisoner: Prisoner
+    resouceField: ResourceField
+    cellInside: CellInside
+    resource: 
+    yard: Yard
+    cafeteria: Cafeteria
+    buyField: BuyField
+    foodDeliveryPoint: FoodDeliveryPoint
+    money: Money
+    hr: HR
+    triggerField: TriggerField

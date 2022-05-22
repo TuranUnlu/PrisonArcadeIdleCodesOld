@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cb7209e3d961de449c14847baf3024b, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  Level: 1
+  LevelForCanvas: 1
+  Loop: 0
+  Coin: 0
+  Player:
+    Speed: 0
+    SwerveSensivity: 0
+    ClampX: 0
+  targetSprites:
+    food: {fileID: 21300000, guid: 3ddaced9714e64832b385d9f62376591, type: 3}
+    yard: {fileID: 21300000, guid: a8259b307e614c642b4b255b9b7aeccc, type: 3}
+    cloth: {fileID: 21300000, guid: 6b389450ae632084e957da0f61be68e3, type: 3}
+    money: {fileID: 21300000, guid: a98b8132edb15b24499eece0ea73440b, type: 3}
+    handcuff: {fileID: 21300000, guid: bf81efcc3d03c4455b70e8a5b3f4275b, type: 3}
+    prisoner: {fileID: 21300000, guid: 16630ee8711d0443c957c2ed9f3635d8, type: 3}
+  spriteColors:
+    food: {r: 1, g: 1, b: 1, a: 0}
+    yard: {r: 0.12156863, g: 0.78431374, b: 0.24313726, a: 0}
+    cloth: {r: 0.94509804, g: 0.44313726, b: 0, a: 0}
+    money: {r: 0.40392157, g: 0.93333334, b: 0, a: 0}
+  foodPrefab: {fileID: 775814935553586120, guid: ebdb64b0c8be90b40bb393b928cc7be5, type: 3}
+  moneyPrefab: {fileID: 7066401009830330475, guid: 30ef1f324f581744dab45fa6433afdfd, type: 3}
+  prisonerPrefab: {fileID: 3183563587965380735, guid: 0579e32004a074238a3e4ea93832b082, type: 3}
+  guardPrefab: {fileID: 6917327577071978832, guid: 15affe68999784091b43c8443f22134e, type: 3}
